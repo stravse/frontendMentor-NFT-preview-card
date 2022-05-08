@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+:root {
+  font-size: 18px;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #0d192b;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card-container {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  background-color: #14253d;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.dis-flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dis-flex-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-image-container {
+  width: 320px;
+  position: relative;
+}
+
+.nft-image {
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.nft-image-hover-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 320px;
+  cursor: pointer;
+  background-color: rgba(0, 255, 247, 0.6);
+  opacity: 0;
+  border-radius: 15px;
+}
+
+.nft-image-hover-container:hover {
+  opacity: 1;
+}
+
+.nft-image-hover-container .nft-hover {
+  opacity: 1;
+}
+
+.card-details-container {
+  padding: 20px 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-text {
+  width: 100%;
+  justify-items: left;
+}
+
+.card-text .eth-logo {
+  width: 20px;
+}
+
+.card-text h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card-text h1:hover {
+  color: #00fff7;
+}
+
+.card-text p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #8bacda;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.price-date-container {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.border-line {
+  height: 1px;
+  width: 100%;
+  background-color: #2f415b;
+}
+
+.author-container {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.author-container p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #8bacda;
+  font-weight: 300;
+  margin-right: 5px;
+}
+
+.author-img {
+  width: 40px;
+  padding: 2px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 16px;
+}
+/*# sourceMappingURL=main.css.map */
